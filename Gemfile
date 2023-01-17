@@ -43,8 +43,8 @@ group :development do
   gem 'sqlite3', '~> 1.4'
 end
 
-group :development do
-  gem "pg", "~> 1.1"
+group :production do
+  gem "pg"
 end
 
 group :test do
